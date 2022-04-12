@@ -75,7 +75,6 @@ public class Order
         Iterator<OrderDetail> it = orderDetailList.iterator();
         
         
-        boolean found = false;
         
         while( it.hasNext() && !found)
         {
